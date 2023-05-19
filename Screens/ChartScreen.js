@@ -1,12 +1,12 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Pressable } from "react-native";
 import NavigationMenu from "../Components/navigationMenu";
 
-export default function Home() {
+export default function ChartScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <NavigationMenu></NavigationMenu>
-      <Text>Profile</Text>
+      <Text>graficas y mierdas</Text>
       <StatusBar style="auto" />
     </View>
   );
